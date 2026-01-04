@@ -4,7 +4,7 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
+@import url("./reset.css");
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -55,7 +55,7 @@ ul {
 }
 
 .btn-update {
-  background-image: url('../img/pencil.svg');
+  background-image: url("../img/pencil.svg");
   background-size: 15px;
   background-repeat: no-repeat;
   width: 30px;
@@ -130,6 +130,8 @@ ul {
   height: 300px;
   background-color: rgb(243, 240, 236);
   border-radius: 27px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .input-modal {
   border: 2px solid #00cfff;
